@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+  }
+  .pr{
+    margin: 40px 40px 0 70px;
+  }
+  .hline{
+    margin-top: 35px;
+  }
+  .header{
+    text-align: left;
+  }
+  .head{
+    margin: 10px 30px 0px 60px;
+    font-weight: 500;
+  }
+  .main{
+    display: flex;
+    margin-left: 38px;
+  }
+  .bx1{
+    margin: 30px;
+    margin-top: 14px;
+    margin-right: 0;
+    text-align: left;
+  }
+  .bx1c{
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 25px;
+  }
+  .px1{
+    color: black;
+    font-size: 20px;
+  }
+  .vline{
+    width: 2px;
+    height: 370px;
+    background-color: rgb(226, 223, 223);
+    margin: 40px 30px;
+    margin-bottom: 0;
+  }
+  .k{
+    font-size: 28px;
+    color: black;
+    margin-bottom: 25px;
+  }
+  .war{
+    margin-top: 15px;
+    color: black;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  
+  .foot{
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: last baseline;
+    margin-right: 15px;
+  }
+  button{
+    height: 35PX;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #d9e7ef;
+    border: 1px solid #d9e7ef;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .pr{
+      margin: 20px 20px 0 20px;
+    }
+  
+    .head{
+      margin: 10px 20px;
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    .main{
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .bx1{
+      margin: 20px 0;
+    }
+  
+    .vline{
+      display: none; /* Hide vertical line on small screens */
+    }
+  
+    .bx1c{
+      text-align: center;
+    }
+  
+    .k{
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    .war{
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .foot{
+      justify-content: center;
+      margin-top: 20px;
+    }
+  
+    button{
+      width: 100%;
+      max-width: 300px;
+      font-size: 18px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .pr{
+      margin: 15px 15px 0 15px;
+    }
+  
+    .head{
+      margin: 10px 15px;
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    .bx1c{
+      text-align: center;
+    }
+  
+    .k{
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+  
+    .war{
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    button{
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+  
