@@ -11,79 +11,79 @@
     width: 100%;
   }
   .pr{
-    margin: 40px 40px 0 70px;
+    margin: 2.5rem 2.5rem 0 4.375rem;
   }
   .hline{
-    margin-top: 35px;
+    margin-top: 2.1875rem;
   }
   .header{
     text-align: left;
   }
   .head{
-    margin: 10px 30px 0px 60px;
+    margin: 0.625rem 1.875rem 0px 3.75rem;
     font-weight: 500;
   }
   .main{
     display: flex;
-    margin-left: 38px;
+    margin-left: 2.375rem;
   }
   .bx1{
-    margin: 30px;
-    margin-top: 14px;
+    margin: 1.875rem;
+    margin-top: 0.875rem;
     margin-right: 0;
     text-align: left;
   }
   .bx1c{
-    margin: 10px;
+    margin: 0.625rem;
     margin-left: 0;
-    margin-top: 25px;
+    margin-top: 1.5625rem;
   }
   .px1{
     color: black;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .vline{
-    width: 2px;
-    height: 370px;
+    width: 0.125rem;
+    height: 23.125rem;
     background-color: rgb(226, 223, 223);
-    margin: 40px 30px;
+    margin-top: 2.5rem;
     margin-bottom: 0;
   }
   .k{
-    font-size: 28px;
+    font-size: 1.875rem;
     color: black;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
   }
   .war{
-    margin-top: 15px;
+    margin-top: 0.9375rem;
     color: black;
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 1.25rem;
+    margin-left: 1.25rem;
   }
   
   .foot{
-    height: 50px;
+    margin-top: 0;
     display: flex;
     flex-direction: row-reverse;
-    align-items: last baseline;
-    margin-right: 15px;
+    align-items: first baseline;
+    margin-right: 0.9375rem;
   }
   button{
-    height: 35PX;
-    width: 150px;
-    border-radius: 5px;
+    height: 2.1875rem;
+    width: 9.375rem;
+    border-radius: 0.3125rem;
     background-color: #d9e7ef;
     border: 1px solid #d9e7ef;
   }
   
   @media only screen and (max-width: 768px) {
     .pr{
-      margin: 20px 20px 0 20px;
+      margin: 1.25rem 1.25rem 0 1.25rem;
     }
   
     .head{
-      margin: 10px 20px;
-      font-size: 20px;
+      margin: 0.625rem 1.25rem;
+      font-size: 1.25rem;
       text-align: center;
     }
   
@@ -94,7 +94,7 @@
     }
   
     .bx1{
-      margin: 20px 0;
+      margin: 1.25rem 0;
     }
   
     .vline{
@@ -106,35 +106,35 @@
     }
   
     .k{
-      font-size: 24px;
-      margin-bottom: 15px;
+      font-size: 1.5rem;
+      margin-bottom: 0.998rem;
     }
   
     .war{
-      font-size: 18px;
+      font-size: 1.125rem;
       text-align: center;
     }
   
     .foot{
       justify-content: center;
-      margin-top: 20px;
+      margin-top: 1.25rem;
     }
   
     button{
       width: 100%;
-      max-width: 300px;
-      font-size: 18px;
+      max-width: 18.75rem;
+      font-size: 1.125rem;
     }
   }
   
   @media only screen and (max-width: 480px) {
     .pr{
-      margin: 15px 15px 0 15px;
+      margin: 0.9375rem 0.9375rem 0 0.9375rem;
     }
   
     .head{
-      margin: 10px 15px;
-      font-size: 18px;
+      margin: 0.625rem 0.9375rem;
+      font-size: 1.125rem;
       text-align: center;
     }
   
@@ -143,18 +143,18 @@
     }
   
     .k{
-      font-size: 22px;
-      margin-bottom: 12px;
+      font-size: 1.375rem;
+      margin-bottom: 0.75rem;
     }
   
     .war{
-      font-size: 16px;
+      font-size: 1rem;
       text-align: center;
     }
   
     button{
       width: 100%;
-      font-size: 16px;
+      font-size: 1rem;
     }
   }
   
